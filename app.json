@@ -2,14 +2,23 @@
   "expo": {
     "name": "Rapprogtrain",
     "slug": "Rapprogtrain",
+     "android": {
+      "versionCode": 9,
+      "package": "com.inad.rapprogtrain",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3371284819677164~9047268786" 
+      }
+    },
+   
     "platforms": [
       "ios",
       "android",
       "web"
     ],
-    "version": "1.0.0",
+    "version": "1.6.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "backgroundColor": "#ffffff",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
